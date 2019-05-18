@@ -1637,3 +1637,25 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+
+		/*Custom CSS*/
+		.course-card{
+			width: 100% !important;
+		}
+
+		.library-before:before{
+			width: 0% !important;
+		}
+		.library-before{
+		margin: 2.5rem 10px 4.5rem 10px !important;
+		opacity: .8;
+		}
+		.library-before:hover{
+			opacity: 1;
+			transition: 300ms;
+		}
+
+		.course-library-layout{
+			display: flex;
+		}
