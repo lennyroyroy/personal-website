@@ -1659,3 +1659,7 @@
 		.course-library-layout{
 			display: flex;
 		}
+
+		.lr-logo::before{
+			background-color: transparent;
+		}
